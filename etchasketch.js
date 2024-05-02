@@ -13,3 +13,9 @@ for (let i = 0; i < 16; i++) {      // 16 rows
 
     };
 };
+
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", () => {
+    let numberOfGridSquares = parseInt(prompt("How many squares per side would you like?"));
+
+});
